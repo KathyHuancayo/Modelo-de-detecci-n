@@ -45,7 +45,7 @@ features =  ['Dst_Port','Protocol','Flow_Duration','Tot_Fwd_Pkts','Tot_Bwd_Pkts'
 
 y=df.Output
 
-X_train,X_test,y_train,y_test=train_test_split(df1,y,test_size=0.4)
+X_train,X_test,y_train,y_test=train_test_split(df1,y,test_size=0.2)
 X_train.shape
 X_test.shape
 y_train.shape
