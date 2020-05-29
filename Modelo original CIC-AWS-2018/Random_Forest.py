@@ -56,7 +56,7 @@ print("CANTIDAD DE DATOS PARA CADA CLASE: ")
 print(df.groupby('Output').size())
 
 #OBTENIENDO DATOS DE TEST(PRUEBA) Y TRAIN (ENTRENAMIENTO)
-X_train, X_test, y_train, y_test = train_test_split( df1, y, test_size = 0.4,
+X_train, X_test, y_train, y_test = train_test_split( df1, y, test_size = 0.2,
                                                     random_state =0 )
 
 X_train.shape
