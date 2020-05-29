@@ -25,7 +25,7 @@ X = datos[['Dst_Port','Protocol','Flow_Duration','Tot_Fwd_Pkts','Tot_Bwd_Pkts',
           'Bwd_Pkt_Len_Mean','Flow_Byts/s','Flow_Pkts/s','Fwd_Pkts/s','Bwd_Pkts/s','Subflow_Fwd_Byts','Subflow_Bwd_Byts','Subflow_Bwd_Pkts','Subflow_Fwd_Pkts']]  
 
 y=datos['Output']
-X_train,X_test,y_train,y_test=train_test_split(X,y,test_size=0.4)
+X_train,X_test,y_train,y_test=train_test_split(X,y,test_size=0.2)
 X_train.shape
 X_test.shape
 y_train.shape
